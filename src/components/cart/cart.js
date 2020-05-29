@@ -8,7 +8,7 @@ import CartList from "./cartList";
 class Cart extends Component {
     render() {
         return (
-            <section>
+            <section className="mt-5">
                 <ProductConsumer >
                     {
                         value =>{
