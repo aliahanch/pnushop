@@ -1,0 +1,20 @@
+.Ali{
+    padding: 100px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #e7f0ed;
+    padding: inherit;
+    width: 100%;
+    height: -webkit-fill-available;
+    z-index: 10000;
+}
+
+.spin{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
