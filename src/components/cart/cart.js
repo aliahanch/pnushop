@@ -15,7 +15,7 @@ class Cart extends Component {
                             const  {cart} =value;
                             if(cart.length>0){
                                 return (<React.Fragment>
-                                    <Title name=" " title="سبد خرید " className="pt-5"></Title>
+                                    <Title name=" " title="سبد خرید " className="pt-5 mt-5"></Title>
                                     <CartCol />
                                     <CartList value={value} />
                                 </React.Fragment>)
