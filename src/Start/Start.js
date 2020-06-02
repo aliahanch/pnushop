@@ -7,7 +7,7 @@ class Start extends Component {
     render() {
         return (
             <div className="Ali">
-                <p className="spin"><Ring color="#50AE65" size={150}/>
+                <p className="spin"><Ring color="#50AE65" size={50}/>
                 </p>
             </div>
         )}
