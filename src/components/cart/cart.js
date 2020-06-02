@@ -8,7 +8,7 @@ import CartList from "./cartList";
 class Cart extends Component {
     render() {
         return (
-            <section className="mt-5">
+            <section style={{marginTop:"100px"}}>
                 <ProductConsumer >
                     {
                         value =>{
