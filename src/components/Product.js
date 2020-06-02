@@ -5,10 +5,7 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
-
 class Product extends Component {
-
-
 
     render() {
         const {id , title , img , price , inCart} = this.props.product;
@@ -50,17 +47,13 @@ class Product extends Component {
 
                         )}
                     </ProductConsumer>
-
-
-
                         <div className="card-footer d-flex justify-content-between">
                             <p className=" ">
                                 {title}
                             </p>
                             <div >
                                 <h5 className= "text-ss text-md-right text-blue  ">
-
-                                    {price*10000}
+                                    {price*18000}
                                     <span className="mr-1 ">تومان</span>
                                 </h5>
                             </div>
@@ -83,6 +76,4 @@ const ProWrap = styled.div`
     position:relative;
     
 }
-
-
 `
